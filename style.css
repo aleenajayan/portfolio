@@ -29,7 +29,6 @@
   margin: 20px;
 }
 .nav_item2 {
-  /* From https://css.glass */
 background: rgba(255, 255, 255, 0.18);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(6.2px);
@@ -435,12 +434,12 @@ background: linear-gradient(145deg,rgba(33, 167, 149, 0.119),rgba(33, 167, 149, 
   color: var(--color1);
   font-size: 20px;
   font-weight: 600;
-  opacity: 0; /* Initially hide the paragraph */
+  opacity: 0; 
   padding-top: 15px;
-  transition: all 0.3s ease; /* Apply transition effect */
+  transition: all 0.3s ease; 
 }
 .interest:hover p {
-  opacity: 1; /* Show the paragraph when .interest is hovered */
+  opacity: 1; 
 }
 .nav_item2 i {
   position: relative;
