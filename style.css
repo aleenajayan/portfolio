@@ -8,6 +8,9 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 .background {
  /* background: linear-gradient(rgb(0, 215, 187), rgb(16, 190, 54));*/
  background-color:rgb(0, 215, 187) ;
